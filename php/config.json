@@ -1,7 +1,7 @@
 {
     "bbdd": "mysql",
     "ruta": "localhost",
-    "dbname": "guitar-addict",
+    "dbname": "guitar_addict",
     "usr": "root",
     "pwd": ""
 }

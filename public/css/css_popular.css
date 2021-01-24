@@ -1,0 +1,98 @@
+.container{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+}
+
+article{
+    padding: 0 1vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+    border: 0.2vw solid black;
+    border-radius: 10%;
+    margin-bottom: 1.5vw;
+    margin-right: 0.8vw;
+}
+article:nth-child(1){
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+article:nth-child(2){
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+article:nth-child(3){
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+.art-titulo{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    font-size: 1.5vw;
+    height: 5vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+.art-imagen{
+    grid-column: 1 / 4;
+    grid-row: 2;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0.2vw 0.8vw 0 black, 0 0.11vw 0.11vw black;
+
+}
+.art-texto{
+    grid-column: 1 / 4;
+    grid-row: 3;
+    font-size: 1vw;
+    margin: 3vw auto 0vw auto;
+    padding: 0vw 1vw;
+    overflow: scroll;
+    height: 15vw;
+}
+.art-texto a{
+    border-bottom: 0.15vw solid black;
+}
+.art-texto a:hover{
+    color: red;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 0.2vw;
+    height: 4vw;
+  }
+
+/* Track */
+::-webkit-scrollbar-track {
+background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+.art-autor{
+    grid-column: 1 / 4;
+    grid-row: 4;
+    font-size: 1vw;
+}
+.art-fecha{
+    grid-column: 3 / 4;
+    grid-row: 4;
+    text-align: right;
+    font-size: 1vw;
+}

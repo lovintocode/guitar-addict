@@ -1,0 +1,94 @@
+/* Estilos para "recienteFile.php" */
+
+/* Artículo */
+.articulo{
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    overflow: hidden;
+    color: white;
+    width: 100%;
+}
+.art-imagen{
+    grid-column: 1 / 10;
+    grid-row: 1 / 3;
+    width: 100%;
+    height: auto;
+}
+.art-fecha{
+    grid-column: 9 / 10;
+    grid-row: 1;
+    font-size: 1.4vw;
+    margin-top: 2vw;
+}
+.art-titulo{
+    grid-column: 1 / 10;
+    grid-row: 1;
+    font-size: 3vw;
+    margin-top: 3.5vw;
+    margin-left: 5vw;
+    text-align: left;
+}
+.art-texto{
+    grid-column: 1 / 10;
+    grid-row: 1;
+    padding-top: 15vw;
+    margin-left: 5vw;
+    font-size: 1.3vw;
+    overflow: hidden;
+    width: 50%;
+    max-height: 30vw;
+    font-weight: bolder;
+    text-shadow: black 1px 2px 5px;
+    letter-spacing: 0.1vw;
+}
+.art-texto a{
+    border-bottom: 0.15vw solid white;
+}
+.art-texto a:hover{
+    color: red;
+}
+.art-autor{
+    grid-column: 1 / 10;
+    text-align: center;
+    grid-row: 2;
+    font-size: 1.8vw;
+    align-self: flex-end;
+    margin-bottom: 5vw;
+}
+.art-compartir{
+    grid-column: 8;
+    grid-row: 2;
+    background: white;
+    height: 3vw;
+    padding: 1vw;
+    padding-left: 2vw;
+    margin-left: 4vw;
+    align-self: flex-end;
+}
+.art-compartir img{
+    width: 3vw;
+    height: auto;
+}
+.art-compartir:hover{
+    background-color: #777;
+}
+.art-comentar{
+    grid-column: 9;
+    grid-row: 2;
+    background: white;
+    height: 3vw;
+    padding:1vw;
+    margin-right: 5vw;
+    padding-left: 1.5vw;
+    align-self: flex-end;
+}
+.art-comentar img{
+    width: 3vw;
+    height: auto;
+}
+.art-comentar:hover{
+    background-color: #777;
+}
+
+/* Fin Artículo */

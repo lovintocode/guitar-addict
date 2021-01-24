@@ -1,10 +1,15 @@
 <?php
+	/* 	Clase Conexión 
+		PDO y POO, se conecta mediante un json específicado por una "ruta" (Linux o Windows)
+	*/
 	class Conexion{
 
 		private $conexion;
 
 		function __construct(){
-			$path = realpath("/Z:/xampp/htdocs/ej13_b/php/config.json");
+			// Windows path //
+			// /Z:/xampp/htdocs/ej13_b/php/config.json //
+			$path = realpath("/opt/lampp/htdocs/guitar-addict/php/config.json");
 			$json_data = file_get_contents($path);
 			$array = json_decode($json_data, true);
 			try{
@@ -14,7 +19,7 @@
 				die('Error : '.$e->GetMessage());
 			}
 		}
-
+		
 		function getConector(){
 			return $this->conexion;
 		}
