@@ -1,7 +1,7 @@
 {
     "bbdd": "mysql",
-    "ruta": "localhost",
-    "dbname": "guitar_addict",
-    "usr": "root",
-    "pwd": ""
+    "ruta": "https://guitaraddictblog.com/",
+    "dbname": "mrffavheks",
+    "usr": "mrffavheks",
+    "pwd": "zgJt6Fn7qw"
 }
