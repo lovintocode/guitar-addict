@@ -1,6 +1,6 @@
 {
     "bbdd": "mysql",
-    "ruta": "localhost",
+    "ruta": "45.76.46.223",
     "dbname": "mrffavheks",
     "usr": "mrffavheks",
     "pwd": "zgJt6Fn7qw"
