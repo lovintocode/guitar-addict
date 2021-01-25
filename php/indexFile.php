@@ -31,13 +31,13 @@
 
         <!-- Left Section -->
         <?php
-            imprimirArtIndex();
+           // imprimirArtIndex();
         ?>
         <!-- Fin Left Section -->
 
         <!-- Right Section-->
         <?php
-            imprimirArtInt();
+         //   imprimirArtInt();
         ?>  
         <!-- Fin Right Section -->
 
