@@ -9,7 +9,8 @@
 		function __construct(){
 			// Windows path //
 			// /Z:/xampp/htdocs/ej13_b/php/config.json //
-			$path = realpath("/opt/lampp/htdocs/guitar-addict/php/config.json");
+			// Linux /opt/lampp/htdocs/guitar-addict //
+			$path = realpath("/php/config.json");
 			$json_data = file_get_contents($path);
 			$array = json_decode($json_data, true);
 			try{
